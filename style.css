@@ -21,7 +21,7 @@ body {
   height: 100vh;
   display: grid;
   place-items: center;
-  background: linear-gradient(#e66465, #9198e5);
+  background-image: linear-gradient(to right, #e66465, #9198e5);
 }
 
 /* h1 {
@@ -54,6 +54,7 @@ li {
 .main-section .color-btns .btn {
   padding: 0.7rem 2.5rem;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  cursor: pointer;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
