@@ -1,0 +1,103 @@
+/* theme  */
+:root {
+  --white-color: #fff;
+  --black-color: #000;
+  --bg1-color: #030507;
+  --bg2-color: #96f92b;
+  --para-color: #666;
+}
+
+/* base rule */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+body {
+  height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+/* h1 {
+  color: var(--bg1-color);
+  font-weight: 600;
+} */
+
+/* p {
+  color: var(--white-color);
+} */
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+.main-section {
+  width: 50vw;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.main-section .color-btns .btn {
+  padding: 0.7rem 2.5rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
+}
+.color-btn--1 {
+  background-color: var(--bg1-color);
+  color: var(--white-color);
+}
+.color-btn--2 {
+  background-color: var(--bg2-color);
+  color: var(--black-color);
+}
+.main-section .color-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.main-section p {
+  font-size: 1.8rem;
+  color: var(--white-color);
+}
+.click-to--copy {
+  cursor: pointer;
+}
+.css-property {
+  padding: 2rem 1rem;
+  border-left: 0.3rem solid var(--white-color);
+  border-radius: 0.5rem;
+  -webkit-border-radius: 0.5rem;
+  -moz-border-radius: 0.5rem;
+  -ms-border-radius: 0.5rem;
+  -o-border-radius: 0.5rem;
+}
+@media (max-width: 1200px) {
+  .main-section {
+    width: 60vw;
+  }
+}
+
+@media (max-width: 1000px) {
+  .main-section {
+    width: 70vw;
+  }
+}
