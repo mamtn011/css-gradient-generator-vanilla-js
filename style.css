@@ -75,6 +75,33 @@ li {
   align-items: center;
   gap: 4rem;
 }
+.direction-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.direction-icons span {
+  /* padding: 0.4rem 0.5rem; */
+  border: 0.1rem solid var(--bg1-color);
+  background-color: rgb(247, 238, 226);
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.3rem;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
+}
+.direction-icons i {
+  padding: 0.4rem 0.5rem;
+  font-size: 1.4rem;
+}
+.direction-icons i.diagonal {
+  rotate: 45deg;
+}
 .main-section p {
   font-size: 1.8rem;
   color: var(--white-color);
